@@ -1,0 +1,22 @@
+FC = gfortran 
+OPT = -Wall -O2
+OBJ1 = linsolve_lapack.o
+OBJ2 = working_precision.o basic.o linsolve.o
+LIBS = -lblas -llapack
+linsolve_lapack: $(OBJ1)
+	@$(FC) $(OPT) $^ $(LIBS) -o $@
+eissolve_sgeev: eissolve_sgeev.o
+	@$(FC) $(OPT) $^ $(LIBS) -o $@
+linsolve_sgesv: linsolve_sgesv.o
+	@$(FC) $(OPT) $^ $(LIBS) -o $@
+linsolve_sgtsv: linsolve_sgtsv.o
+	@$(FC) $(OPT) $^ $(LIBS) -o $@
+linsolve: $(OBJ2)
+	@$(FC) $(OPT) $^ -o $@
+	@-rm $^
+%.o: %.f90
+	@$(FC) $(OPT) -c $^ 
+.PHONY: clean
+clean:
+	@-rm $(OBJ)
+

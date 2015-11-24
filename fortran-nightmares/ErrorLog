@@ -1,0 +1,6 @@
+C:\Users\Eduardo.Lalo.Carrasc\Desktop\programs\sinister-scientific-computing\fortran-nightmares\mymean.F90(7) : warning 868 - Opening unit 1 may affect the operation of input from the default unit '*' - are you sure you want to do this?
+C:\Users\Eduardo.Lalo.Carrasc\Desktop\programs\sinister-scientific-computing\fortran-nightmares\mymean.F90(12) : warning 868 - Closing unit 1 may affect the operation of input from the default unit '*' - are you sure you want to do this?
+C:\Users\Eduardo.Lalo.Carrasc\Desktop\programs\sinister-scientific-computing\fortran-nightmares\mymean.F90(14) : warning 868 - Opening unit 1 may affect the operation of input from the default unit '*' - are you sure you want to do this?
+C:\Users\Eduardo.Lalo.Carrasc\Desktop\programs\sinister-scientific-computing\fortran-nightmares\mymean.F90(22) : warning 868 - Closing unit 1 may affect the operation of input from the default unit '*' - are you sure you want to do this?
+C:\Users\Eduardo.Lalo.Carrasc\Desktop\programs\sinister-scientific-computing\fortran-nightmares\mymean.F90(22) : warning 133 - This statement will never be executed
+C:\Users\Eduardo.Lalo.Carrasc\Desktop\programs\sinister-scientific-computing\fortran-nightmares\mymean.F90(11) : error 283 - RAND must appear in a type declaration because IMPLICIT NONE has been used
